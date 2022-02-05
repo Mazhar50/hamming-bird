@@ -62,8 +62,16 @@ display: flex;
     border-radius: 10px;
     height: 40%;
     margin-bottom: 30px;
+    background-color: white;
 }
 #border-gre{
-    border-left: 7px solid ;
-    border-left-color: tomato,lightsalmon ;
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, #b676e0) 30;
+    border-image-slice: fill;
+}
+#border-style{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(7, 90, 34), #b676e0) 30;
+    border-image-slice: fill;
+    border-radius: 10px;
 }
