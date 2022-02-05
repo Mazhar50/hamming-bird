@@ -1,19 +1,12 @@
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 .top-banner{
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
 }
-.another-top-banner{
-    background-image: url('image/dream-bg.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    
-}
-
 h1{
     font-size: 50px;
 }
@@ -26,9 +19,8 @@ p{
 .yellow{
     color: chartreuse;
 }
-.top-banner{
+.top-banner {
 display: flex;
-float: left;
 }
 .link-button{
     text-decoration: none;
@@ -43,7 +35,35 @@ float: left;
     float: left;
     margin-left: 4%;
     padding-left: 2%;
+    margin-bottom: 2px;
 }
 .half-width img{
     width: 100%;
+}
+.another-top-banner{
+    display: flex;
+}
+.dream-area{
+    background-image: url('image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    display: flex;
+    background-color: white;
+}
+.experience-area{
+    background-image: url('image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-single{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 10px;
+    height: 40%;
+    margin-bottom: 30px;
+}
+#border-gre{
+    border-left: 7px solid ;
+    border-left-color: tomato,lightsalmon ;
 }
