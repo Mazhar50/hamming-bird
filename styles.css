@@ -1,22 +1,42 @@
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
-.topbar{
-    display: flex;
-    margin-bottom: 50px;
-}
-.topbar img{
-    width: 100%;
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 50px;
-    font: weight 700px;
 }
-h1 span{
-    color: coral;
+h2{
+    font-size: 40px;
 }
-.pera{
+p{
+    color: dimgray;
+}
+.yellow{
+    color: chartreuse;
+}
+.top-banner{
+display: flex;
+float: left;
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(216, 123, 106),tomato ) ;
+    padding: 10px 20px;
+    color: cornsilk;
     font-weight: 700;
-    margin: 10px 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
 }
